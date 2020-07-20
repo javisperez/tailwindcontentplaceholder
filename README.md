@@ -1,9 +1,5 @@
 # Tailwind Content Placeholder Plugin
 
-**Table of Contents**
-
-[TOC]
-
 # About
 This is a TailwindCSS Plugin to create CSS classes for Content Placeholder and make it easier to display the loading state of resources.
 
@@ -11,8 +7,8 @@ This is a TailwindCSS Plugin to create CSS classes for Content Placeholder and m
 Based on a given configuration file it creates a dynamic background image in the pseudo elements and adds an (optional) opacity animation.
 
 # Demo
-
-_...soon_
+You can see a working demo App here:
+https://javisperez.github.io/tailwindcontentplaceholder/
 
 # Installation
 You can install this from npm by using:
