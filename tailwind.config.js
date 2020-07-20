@@ -1,7 +1,7 @@
 module.exports = {
   purge: [
-    './src/**/*.html',
-    './src/**/*.vue',
+    './demo/src/**/*.html',
+    './demo/src/**/*.vue',
   ],
   plugins: [
     require('./tailwindcss/plugins/content-placeholder')({
