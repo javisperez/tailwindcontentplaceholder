@@ -45,21 +45,18 @@ module.exports = {
         },
 
         'line-2': {
-          height: 1,
           rows: [
             [20, 65]
           ]
         },
 
         'postinfo': {
-          height: 1,
           rows: [
             [15, 15, 15]
           ]
         },
 
         'paragraph': {
-          height: 4,
           rows: [
             [100],
             [100],

@@ -47,28 +47,16 @@ module.exports = function (userOptions = {}) {
     let yPosition = 0;
 
     return rows.map(row => {
-      const height = `calc(${options.height}em - 3px)`;
+      const height = 'calc(1em - 3px)';
       const lineWithSegments = renderSingleLine(row);
       const rowLines = lineWithSegments.map(line =>
         line.replace(`y='0'`, `y='${yPosition}em'`).replace(`height='90%'`, `height='${height}'`)
       );
 
-      yPosition += Number(options.height);
+      yPosition++;
 
       return rowLines.join('');
     });
-  }
-
-  function getPartsWithRandomValues(number, parts, minValue) {
-    const randombit = number - minValue * parts;
-    const out = [];
-
-    for (let i = 0; i < parts; i++) {
-      out.push(Math.random());
-    }
-
-    const mult = randombit / out.reduce((a, b) => a + b);
-    return out.map((el) => el * mult + min);
   }
 
   function generateBackground(rows = [[100]], svgHeight = options.height) {
@@ -87,7 +75,7 @@ module.exports = function (userOptions = {}) {
       customComponents[`.cp-${name}::before`] = {
         ...baseStyle,
         width: placeholder.width || options.width,
-        height: placeholder.height ? `${placeholder.height}em` : options.height,
+        height: `${placeholder.height || placeholder.rows.length || options.height}em`,
         backgroundImage: generateBackground(placeholder.rows, '100%')
       };
     });
