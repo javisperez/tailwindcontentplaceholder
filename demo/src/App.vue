@@ -150,6 +150,10 @@ export default {
 
     function fetchPosts (id = null) {
       if (id) {
+        if (isLoadingPostId.value === id) {
+          return
+        }
+
         isLoadingPostId.value = id
         const index = posts.value.findIndex(p => p.id === id)
         posts.value.splice(index, 1, {
