@@ -4,7 +4,7 @@ module.exports = {
     './demo/src/**/*.vue',
   ],
   plugins: [
-    require('./tailwindcss/plugins/content-placeholder')({
+    require('./index')({
       placeholders: {
         'post': {
           height: 8, // height in em

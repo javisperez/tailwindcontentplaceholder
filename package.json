@@ -1,6 +1,6 @@
 {
   "name": "tailwind-content-placeholder",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A TailwindCSS plugin to create Content Placeholder classes",
   "author": "Javis Pérez <javisperez@gmail.com>",
   "scripts": {
@@ -11,12 +11,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/lorisleiva/tailwindcss-plugins.git"
+    "url": "git+https://github.com/javisperez/tailwindcontentplaceholder"
   },
-  "main": "tailwindcss/plugins/content-placeholder.js",
+  "main": "index.js",
   "readme": "README.md",
   "dependencies": {
-    "vue": "^3.0.0-beta.1"
+    "vue": "^3.0.0-rc.5"
   },
   "keywords": [
     "tailwindcss",
@@ -25,13 +25,12 @@
     "loading"
   ],
   "files": [
-    "tailwindcss/plugins/content-placeholder.js"
+    "index.js"
   ],
   "devDependencies": {
-    "@vue/compiler-sfc": "^3.0.0-beta.1",
+    "@vue/compiler-sfc": "^3.0.0-rc.5",
     "cross-env": "^7.0.2",
-    "tailwindcss": "^1.4.6",
-    "vue-cli-plugin-vue-next": "~0.1.3"
+    "tailwindcss": "^1.4.6"
   },
   "license": "MIT"
 }
