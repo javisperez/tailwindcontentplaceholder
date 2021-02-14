@@ -54,9 +54,9 @@ The configuration values that can be passed to the plugin are:
 |animationDuration|String|"1.4s"|Duration of the animation in a CSS format.|
 |animated|Boolean|true|Enable/Disable the background opacity animation.|
 |bgColor|String|"rgba(0, 0, 0, 0.1)"|Background color for each line in CSS format.|
-|height|Number|1|Height of the wrapper in `em`.|
-|width|String|"80%"|Width of the wrapper in CSS format.|
-|placeholders|Array|[]|Collection of objects with configuration and rows to render.|
+|height|[Number, String]|1|Height of the wrapper. If a number is given will be considered `em`.|
+|width|[String, Number]|"80%"|Width of the wrapper in CSS format. If a number is given, will be consider `%`.|
+|placeholders|[Array, String]|[]|Collection of objects with configuration and rows to render. A multiline string can also be given, in which a `#` character represents 10% width and spaces represent 10% separation. eg.: `##  ##` will produce 20% blocks with a 20% space separation and another 20% block, in just one single row.|
 
 ## Configuration of Placeholders object
 The `placeholders` is an object which keys must be the name of the CSS class to generate and the values a configuration object with the keys:
