@@ -23,7 +23,7 @@ yarn add tailwind-content-placeholder
 # How to use
 In your `tailwind.config.js` file, include the plugin and initiate it with the proper configuration.
 
-## Example
+**Example**
 ```js
 module.exports = {
   plugins: [
@@ -44,12 +44,23 @@ module.exports = {
 }
 ```
 
+After that, you'll have a set of utilities classes you can use to show the placeholder:
+
+```
+<div :class="{ 'cp-paragrah': isLoading }">
+  {{ content }}
+</div>
+```
+
+The classes will be prefixed by the given custom prefix or will use `cp-` by default.
+
 # About the Configuration
 ## Values
 The configuration values that can be passed to the plugin are:
 
 | Option | Type | Default Value | Description |
 |-- | -- | -- | --|
+|prefix|String|cp|The prefix to use when generating the utility classes.|
 |borderRadius|Number|4|Border radius value for the corners of each rendered line.|
 |animationDuration|String|"1.4s"|Duration of the animation in a CSS format.|
 |animated|Boolean|true|Enable/Disable the background opacity animation.|
