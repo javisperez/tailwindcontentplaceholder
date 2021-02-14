@@ -6,17 +6,12 @@ module.exports = {
   plugins: [
     require('./index')({
       placeholders: {
-        'post': {
-          height: 8, // height in em
-          rows: [
-            [20, 40],
-            [70],
-            [], // use empty rows to create some space
-            [100],
-            [],
-            [15]
-          ]
-        },
+        'post': `## ####
+          #######
+
+          ##########
+
+          ##`,
 
         'users': {
           height: 8, // height in em

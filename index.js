@@ -5,16 +5,20 @@ module.exports = function (userOptions = {}) {
     animated: true,
     bgColor: 'rgba(0, 0, 0, 0.1)',
     height: 1,
+    prefix: 'cp',
     width: '80%',
     placeholders: [],
     ...userOptions,
   };
 
+  const height = options.height + (typeof options.height === 'number' ? 'em' : '')
+  const width = options.width + (typeof options.width === 'number' ? '%' : '')
+
   const baseStyle = {
     content: '" "',
-    height: `${options.height}em`,
+    height: height,
     color: 'transparent',
-    width: options.width,
+    width: width,
     display: 'block',
     backgroundPosition: '0 0',
     backgroundRepeat: 'no-repeat',
@@ -72,11 +76,19 @@ module.exports = function (userOptions = {}) {
     Object.keys(options.placeholders).forEach(name => {
       const placeholder = options.placeholders[name];
 
-      customComponents[`.cp-${name}::before`] = {
+      let rows = placeholder.rows
+
+      if (typeof placeholder === 'string') {
+        rows = placeholder.split('\n').map((line) => {
+          return line.trim().split(' ').map((segment) => segment.length * 10)
+        });
+      }
+
+      customComponents[`.${options.prefix}-${name}::before`] = {
         ...baseStyle,
-        width: placeholder.width || options.width,
-        height: `${placeholder.height || placeholder.rows.length || options.height}em`,
-        backgroundImage: generateBackground(placeholder.rows, '100%')
+        width: placeholder.width || width,
+        height: `${placeholder.height || rows.length || height}em`,
+        backgroundImage: generateBackground(rows, '100%')
       };
     });
 
