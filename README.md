@@ -1,4 +1,4 @@
-<!--lint disable remark-lint:awesome-contributing-->
+<!--lint disable awesome-contributing awesome-github -->
 # Content Placeholder for Tailwind CSS
 
 A plugin to create utility classes for Content Placeholders.
@@ -22,7 +22,7 @@ https://javisperez.github.io/tailwindcontentplaceholder/
 ### About
 This is a Tailwind CSS Plugin to create utility classes for Content Placeholder and make it easier to display the loading state of resources.
 
-### How does it work?
+### How does it work
 Based on a given configuration file it creates a dynamic background image in the pseudo-elements and adds an (optional) opacity animation.
 
 ### Installation
@@ -72,16 +72,16 @@ The classes will be prefixed by the given custom prefix or will use `cp-` by def
 ### Configuration
 The configuration values that can be passed to the plugin are:
 
-| Option | Type | Default Value | Description |
+| Option | Type | Default | Description |
 |-- | -- | -- | --|
 |prefix|String|cp|The prefix to use when generating the utility classes.|
 |borderRadius|Number|4|Border radius value for the corners of each rendered line.|
 |animationDuration|String|"1.4s"|Duration of the animation in a CSS format.|
 |animated|Boolean|true|Enable/Disable the background opacity animation.|
 |bgColor|String|"rgba(0, 0, 0, 0.1)"|Background color for each line in CSS format.|
-|height|[Number, String]|1|Height of the wrapper. If a number is given will be considered **em**.|
-|width|[String, Number]|"80%"|Width of the wrapper in CSS format. If a number is given, will be consider **%**.|
-|placeholders|[Placeholder[], String]|[]|Collection of objects with configuration and rows to render. A multiline string can also be given, in which a **#** character represents 10% width and spaces represent 10% separation. eg.: `##  ##` will produce 20% blocks with a 20% space separation and another 20% block, in just one single row.|
+|height|Number, String|1|Height of the wrapper. If a number is given will be considered **em**.|
+|width|Number, String|"80%"|Width of the wrapper in CSS format. If a number is given, will be consider **%**.|
+|placeholders|Placeholder\[\], String|\[\]|Collection of objects with configuration and rows to render. A multiline string can also be given, in which a **#** character represents 10% width and spaces represent 10% separation. eg.: `##  ##` will produce 20% blocks with a 20% space separation and another 20% block, in just one single row.|
 
 #### Placeholder
 The `placeholders` property is an object which keys must be the name of the CSS class to generate and the values a configuration object with the keys:
