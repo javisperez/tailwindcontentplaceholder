@@ -1,8 +1,7 @@
-<h2 align="center">Content Placeholder for Tailwind CSS</h2>
+<!--lint disable remark-lint:awesome-contributing-->
+# Content Placeholder for Tailwind CSS
 
-<p align="center">
-  A plugin to create utility classes for Content Placeholders.
-</p>
+A plugin to create utility classes for Content Placeholders.
 
 [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 
@@ -10,7 +9,7 @@
 
 - [Demo](#demo)
 - [About](#about)
-- [How does it work?](#how-does-it-work)
+- [How does it work](#how-does-it-work)
 - [Installation](#installation)
 - [How to use](#how-to-use)
 - [Configuration](#configuration)
@@ -29,11 +28,11 @@ Based on a given configuration file it creates a dynamic background image in the
 ### Installation
 With NPM:
 ```sh
-$ npm install tailwind-content-placeholder
+npm install tailwind-content-placeholder
 ```
 Or if using Yarn:
 ```sh
-$ yarn add tailwind-content-placeholder
+yarn add tailwind-content-placeholder
 ```
 
 ### How to use
@@ -80,9 +79,9 @@ The configuration values that can be passed to the plugin are:
 |animationDuration|String|"1.4s"|Duration of the animation in a CSS format.|
 |animated|Boolean|true|Enable/Disable the background opacity animation.|
 |bgColor|String|"rgba(0, 0, 0, 0.1)"|Background color for each line in CSS format.|
-|height|[Number, String]|1|Height of the wrapper. If a number is given will be considered `em`.|
-|width|[String, Number]|"80%"|Width of the wrapper in CSS format. If a number is given, will be consider `%`.|
-|placeholders|[Placeholder[], String]|[]|Collection of objects with configuration and rows to render. A multiline string can also be given, in which a `#` character represents 10% width and spaces represent 10% separation. eg.: `##  ##` will produce 20% blocks with a 20% space separation and another 20% block, in just one single row.|
+|height|[Number, String]|1|Height of the wrapper. If a number is given will be considered **em**.|
+|width|[String, Number]|"80%"|Width of the wrapper in CSS format. If a number is given, will be consider **%**.|
+|placeholders|[Placeholder[], String]|[]|Collection of objects with configuration and rows to render. A multiline string can also be given, in which a **#** character represents 10% width and spaces represent 10% separation. eg.: `##  ##` will produce 20% blocks with a 20% space separation and another 20% block, in just one single row.|
 
 #### Placeholder
 The `placeholders` property is an object which keys must be the name of the CSS class to generate and the values a configuration object with the keys:
