@@ -68,7 +68,7 @@ module.exports = function (userOptions = {}) {
       rows.length === 1 ? renderSingleLine(rows[0]) : renderRowsOfLines(rows)
     }</svg>`;
 
-    return `url("data:image/svg+xml;utf8,${svg}")`;
+    return `url("data:image/svg+xml;utf8,${encodeURIComponent(svg)}")`;
   }
 
   return function ({ addBase, addComponents }) {
