@@ -580,7 +580,7 @@ video {
   border-radius: 4px;
   -webkit-animation: contentPlaceholder 1.4s ease infinite;
           animation: contentPlaceholder 1.4s ease infinite;
-  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='100%' height='100%'><rect x='0%' y='0em' width='calc(20% - 5px)' height='calc(1em - 3px)' rx='4' fill='rgba(0, 0, 0, 0.1)' /><rect x='20%' y='0em' width='40%' height='calc(1em - 3px)' rx='4' fill='rgba(0, 0, 0, 0.1)' />,<rect x='0%' y='1em' width='70%' height='calc(1em - 3px)' rx='4' fill='rgba(0, 0, 0, 0.1)' />,<rect x='0%' y='2em' width='0%' height='calc(1em - 3px)' rx='4' fill='rgba(0, 0, 0, 0.1)' />,<rect x='0%' y='3em' width='100%' height='calc(1em - 3px)' rx='4' fill='rgba(0, 0, 0, 0.1)' />,<rect x='0%' y='4em' width='0%' height='calc(1em - 3px)' rx='4' fill='rgba(0, 0, 0, 0.1)' />,<rect x='0%' y='5em' width='20%' height='calc(1em - 3px)' rx='4' fill='rgba(0, 0, 0, 0.1)' /></svg>");
+  background-image: url("data:image/svg+xml;utf8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20width%3D'100%25'%20height%3D'100%25'%3E%3Crect%20x%3D'0%25'%20y%3D'0em'%20width%3D'calc(20%25%20-%205px)'%20height%3D'calc(1em%20-%203px)'%20rx%3D'4'%20fill%3D'rgba(0%2C%200%2C%200%2C%200.1)'%20%2F%3E%3Crect%20x%3D'20%25'%20y%3D'0em'%20width%3D'40%25'%20height%3D'calc(1em%20-%203px)'%20rx%3D'4'%20fill%3D'rgba(0%2C%200%2C%200%2C%200.1)'%20%2F%3E%2C%3Crect%20x%3D'0%25'%20y%3D'1em'%20width%3D'70%25'%20height%3D'calc(1em%20-%203px)'%20rx%3D'4'%20fill%3D'rgba(0%2C%200%2C%200%2C%200.1)'%20%2F%3E%2C%3Crect%20x%3D'0%25'%20y%3D'2em'%20width%3D'0%25'%20height%3D'calc(1em%20-%203px)'%20rx%3D'4'%20fill%3D'rgba(0%2C%200%2C%200%2C%200.1)'%20%2F%3E%2C%3Crect%20x%3D'0%25'%20y%3D'3em'%20width%3D'100%25'%20height%3D'calc(1em%20-%203px)'%20rx%3D'4'%20fill%3D'rgba(0%2C%200%2C%200%2C%200.1)'%20%2F%3E%2C%3Crect%20x%3D'0%25'%20y%3D'4em'%20width%3D'0%25'%20height%3D'calc(1em%20-%203px)'%20rx%3D'4'%20fill%3D'rgba(0%2C%200%2C%200%2C%200.1)'%20%2F%3E%2C%3Crect%20x%3D'0%25'%20y%3D'5em'%20width%3D'20%25'%20height%3D'calc(1em%20-%203px)'%20rx%3D'4'%20fill%3D'rgba(0%2C%200%2C%200%2C%200.1)'%20%2F%3E%3C%2Fsvg%3E");
 }
 
 .cp-users::before {
@@ -594,7 +594,7 @@ video {
   border-radius: 4px;
   -webkit-animation: contentPlaceholder 1.4s ease infinite;
           animation: contentPlaceholder 1.4s ease infinite;
-  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='100%' height='100%'><rect x='0%' y='0em' width='85%' height='calc(1em - 3px)' rx='4' fill='rgba(0, 0, 0, 0.1)' />,,<rect x='0%' y='2em' width='90%' height='calc(1em - 3px)' rx='4' fill='rgba(0, 0, 0, 0.1)' />,,<rect x='0%' y='4em' width='80%' height='calc(1em - 3px)' rx='4' fill='rgba(0, 0, 0, 0.1)' />,,<rect x='0%' y='6em' width='70%' height='calc(1em - 3px)' rx='4' fill='rgba(0, 0, 0, 0.1)' /></svg>");
+  background-image: url("data:image/svg+xml;utf8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20width%3D'100%25'%20height%3D'100%25'%3E%3Crect%20x%3D'0%25'%20y%3D'0em'%20width%3D'85%25'%20height%3D'calc(1em%20-%203px)'%20rx%3D'4'%20fill%3D'rgba(0%2C%200%2C%200%2C%200.1)'%20%2F%3E%2C%2C%3Crect%20x%3D'0%25'%20y%3D'2em'%20width%3D'90%25'%20height%3D'calc(1em%20-%203px)'%20rx%3D'4'%20fill%3D'rgba(0%2C%200%2C%200%2C%200.1)'%20%2F%3E%2C%2C%3Crect%20x%3D'0%25'%20y%3D'4em'%20width%3D'80%25'%20height%3D'calc(1em%20-%203px)'%20rx%3D'4'%20fill%3D'rgba(0%2C%200%2C%200%2C%200.1)'%20%2F%3E%2C%2C%3Crect%20x%3D'0%25'%20y%3D'6em'%20width%3D'70%25'%20height%3D'calc(1em%20-%203px)'%20rx%3D'4'%20fill%3D'rgba(0%2C%200%2C%200%2C%200.1)'%20%2F%3E%3C%2Fsvg%3E");
 }
 
 .cp-list::before {
@@ -608,7 +608,7 @@ video {
   border-radius: 4px;
   -webkit-animation: contentPlaceholder 1.4s ease infinite;
           animation: contentPlaceholder 1.4s ease infinite;
-  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='100%' height='100%'><rect x='0%' y='0em' width='calc(20% - 5px)' height='calc(1em - 3px)' rx='4' fill='rgba(0, 0, 0, 0.1)' /><rect x='20%' y='0em' width='65%' height='calc(1em - 3px)' rx='4' fill='rgba(0, 0, 0, 0.1)' />,,<rect x='0%' y='2em' width='calc(20% - 5px)' height='calc(1em - 3px)' rx='4' fill='rgba(0, 0, 0, 0.1)' /><rect x='20%' y='2em' width='75%' height='calc(1em - 3px)' rx='4' fill='rgba(0, 0, 0, 0.1)' />,,<rect x='0%' y='4em' width='calc(20% - 5px)' height='calc(1em - 3px)' rx='4' fill='rgba(0, 0, 0, 0.1)' /><rect x='20%' y='4em' width='60%' height='calc(1em - 3px)' rx='4' fill='rgba(0, 0, 0, 0.1)' />,,<rect x='0%' y='6em' width='calc(20% - 5px)' height='calc(1em - 3px)' rx='4' fill='rgba(0, 0, 0, 0.1)' /><rect x='20%' y='6em' width='55%' height='calc(1em - 3px)' rx='4' fill='rgba(0, 0, 0, 0.1)' /></svg>");
+  background-image: url("data:image/svg+xml;utf8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20width%3D'100%25'%20height%3D'100%25'%3E%3Crect%20x%3D'0%25'%20y%3D'0em'%20width%3D'calc(20%25%20-%205px)'%20height%3D'calc(1em%20-%203px)'%20rx%3D'4'%20fill%3D'rgba(0%2C%200%2C%200%2C%200.1)'%20%2F%3E%3Crect%20x%3D'20%25'%20y%3D'0em'%20width%3D'65%25'%20height%3D'calc(1em%20-%203px)'%20rx%3D'4'%20fill%3D'rgba(0%2C%200%2C%200%2C%200.1)'%20%2F%3E%2C%2C%3Crect%20x%3D'0%25'%20y%3D'2em'%20width%3D'calc(20%25%20-%205px)'%20height%3D'calc(1em%20-%203px)'%20rx%3D'4'%20fill%3D'rgba(0%2C%200%2C%200%2C%200.1)'%20%2F%3E%3Crect%20x%3D'20%25'%20y%3D'2em'%20width%3D'75%25'%20height%3D'calc(1em%20-%203px)'%20rx%3D'4'%20fill%3D'rgba(0%2C%200%2C%200%2C%200.1)'%20%2F%3E%2C%2C%3Crect%20x%3D'0%25'%20y%3D'4em'%20width%3D'calc(20%25%20-%205px)'%20height%3D'calc(1em%20-%203px)'%20rx%3D'4'%20fill%3D'rgba(0%2C%200%2C%200%2C%200.1)'%20%2F%3E%3Crect%20x%3D'20%25'%20y%3D'4em'%20width%3D'60%25'%20height%3D'calc(1em%20-%203px)'%20rx%3D'4'%20fill%3D'rgba(0%2C%200%2C%200%2C%200.1)'%20%2F%3E%2C%2C%3Crect%20x%3D'0%25'%20y%3D'6em'%20width%3D'calc(20%25%20-%205px)'%20height%3D'calc(1em%20-%203px)'%20rx%3D'4'%20fill%3D'rgba(0%2C%200%2C%200%2C%200.1)'%20%2F%3E%3Crect%20x%3D'20%25'%20y%3D'6em'%20width%3D'55%25'%20height%3D'calc(1em%20-%203px)'%20rx%3D'4'%20fill%3D'rgba(0%2C%200%2C%200%2C%200.1)'%20%2F%3E%3C%2Fsvg%3E");
 }
 
 .cp-line-2::before {
@@ -622,7 +622,7 @@ video {
   border-radius: 4px;
   -webkit-animation: contentPlaceholder 1.4s ease infinite;
           animation: contentPlaceholder 1.4s ease infinite;
-  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='100%' height='100%'><rect x='0%' y='0' width='calc(20% - 5px)' height='90%' rx='4' fill='rgba(0, 0, 0, 0.1)' />,<rect x='20%' y='0' width='65%' height='90%' rx='4' fill='rgba(0, 0, 0, 0.1)' /></svg>");
+  background-image: url("data:image/svg+xml;utf8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20width%3D'100%25'%20height%3D'100%25'%3E%3Crect%20x%3D'0%25'%20y%3D'0'%20width%3D'calc(20%25%20-%205px)'%20height%3D'90%25'%20rx%3D'4'%20fill%3D'rgba(0%2C%200%2C%200%2C%200.1)'%20%2F%3E%2C%3Crect%20x%3D'20%25'%20y%3D'0'%20width%3D'65%25'%20height%3D'90%25'%20rx%3D'4'%20fill%3D'rgba(0%2C%200%2C%200%2C%200.1)'%20%2F%3E%3C%2Fsvg%3E");
 }
 
 .cp-postinfo::before {
@@ -636,7 +636,7 @@ video {
   border-radius: 4px;
   -webkit-animation: contentPlaceholder 1.4s ease infinite;
           animation: contentPlaceholder 1.4s ease infinite;
-  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='100%' height='100%'><rect x='0%' y='0' width='calc(15% - 5px)' height='90%' rx='4' fill='rgba(0, 0, 0, 0.1)' />,<rect x='15%' y='0' width='calc(15% - 5px)' height='90%' rx='4' fill='rgba(0, 0, 0, 0.1)' />,<rect x='30%' y='0' width='15%' height='90%' rx='4' fill='rgba(0, 0, 0, 0.1)' /></svg>");
+  background-image: url("data:image/svg+xml;utf8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20width%3D'100%25'%20height%3D'100%25'%3E%3Crect%20x%3D'0%25'%20y%3D'0'%20width%3D'calc(15%25%20-%205px)'%20height%3D'90%25'%20rx%3D'4'%20fill%3D'rgba(0%2C%200%2C%200%2C%200.1)'%20%2F%3E%2C%3Crect%20x%3D'15%25'%20y%3D'0'%20width%3D'calc(15%25%20-%205px)'%20height%3D'90%25'%20rx%3D'4'%20fill%3D'rgba(0%2C%200%2C%200%2C%200.1)'%20%2F%3E%2C%3Crect%20x%3D'30%25'%20y%3D'0'%20width%3D'15%25'%20height%3D'90%25'%20rx%3D'4'%20fill%3D'rgba(0%2C%200%2C%200%2C%200.1)'%20%2F%3E%3C%2Fsvg%3E");
 }
 
 .cp-paragraph::before {
@@ -650,7 +650,7 @@ video {
   border-radius: 4px;
   -webkit-animation: contentPlaceholder 1.4s ease infinite;
           animation: contentPlaceholder 1.4s ease infinite;
-  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='100%' height='100%'><rect x='0%' y='0em' width='100%' height='calc(1em - 3px)' rx='4' fill='rgba(0, 0, 0, 0.1)' />,<rect x='0%' y='1em' width='100%' height='calc(1em - 3px)' rx='4' fill='rgba(0, 0, 0, 0.1)' />,<rect x='0%' y='2em' width='40%' height='calc(1em - 3px)' rx='4' fill='rgba(0, 0, 0, 0.1)' />,</svg>");
+  background-image: url("data:image/svg+xml;utf8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20width%3D'100%25'%20height%3D'100%25'%3E%3Crect%20x%3D'0%25'%20y%3D'0em'%20width%3D'100%25'%20height%3D'calc(1em%20-%203px)'%20rx%3D'4'%20fill%3D'rgba(0%2C%200%2C%200%2C%200.1)'%20%2F%3E%2C%3Crect%20x%3D'0%25'%20y%3D'1em'%20width%3D'100%25'%20height%3D'calc(1em%20-%203px)'%20rx%3D'4'%20fill%3D'rgba(0%2C%200%2C%200%2C%200.1)'%20%2F%3E%2C%3Crect%20x%3D'0%25'%20y%3D'2em'%20width%3D'40%25'%20height%3D'calc(1em%20-%203px)'%20rx%3D'4'%20fill%3D'rgba(0%2C%200%2C%200%2C%200.1)'%20%2F%3E%2C%3C%2Fsvg%3E");
 }
 
 .bg-white {

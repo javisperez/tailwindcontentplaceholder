@@ -1,6 +1,6 @@
 {
   "name": "tailwind-content-placeholder",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "A TailwindCSS plugin to create Content Placeholder classes",
   "author": "Javis Pérez <javisperez@gmail.com>",
   "scripts": {
