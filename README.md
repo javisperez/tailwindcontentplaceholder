@@ -62,7 +62,7 @@ module.exports = {
 After that, you'll have a set of utilities classes you can use to show the placeholder:
 
 ```
-<div :class="{ 'cp-paragrah': isLoading }">
+<div :class="{ 'cp-paragraph': isLoading }">
   {{ content }}
 </div>
 ```
